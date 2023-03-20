@@ -2,12 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat");
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(189deg, #a3c5b4, #83a093);
-  overflow: hidden;
+  background: linear-gradient(190deg, #e2f9ee, #83a093);
+  min-height: 100vh;
+}
+h1 {
+  font-weight: 600;
+  font-size: 2.5em;
+  color: white;
 }
 #mainPhoto {
   width: 100%;
@@ -56,10 +62,10 @@ img {
   transition: 0.3s;
 }
 .caption-wrapper #caption {
-  font-family: "Playfair Display", serif;
+  font-family: serif;
   font-weight: 700;
   text-transform: capitalize;
-  font-size: 70px;
+  font-size: 50px;
   margin-top: 50px;
   text-align: center;
   color: #daecdf;
